@@ -26,7 +26,7 @@ layui.use(['form','jquery','layer'],function(){
         layer = layui.layer;
     form.on('submit(submitBtn)',function(obj){
         $.ajax({
-            url:getContextPath()+'/MemberLoginServlet/login',
+            url:getContextPath()+'/LoginServlet/login',
             type:'POST',
             data:$(".usertext").serialize(), // 取得表单的所有数据内
             success:function(data){
