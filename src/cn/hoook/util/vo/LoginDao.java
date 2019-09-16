@@ -11,16 +11,22 @@ public class LoginDao {
     public static Connection con = null;
     public static PreparedStatement ps = null;
     public static ResultSet rs = null;
-    public static boolean checkLogin(String mid,String password){
+    public static boolean checkLogin(String mid,String pass){
         con= DatabaseConnection.getConn();//链接数据库
-        String sql = "SELECT mid,password,name,flag FROM member WHERE mid=?";
+        String sql = "SELECT * FROM member WHERE mid=?";
         try {
             ps = con.prepareStatement(sql);
             ps.setString(1,mid);//给mid赋值，用于上述查询语句中“？”
-        rs = ps.executeQuery();//执行查询语句
-            String pwd = rs.getString("password");//找到数据库中mid对对应的密码
-            System.out.println(password);
-            if(pwd.equals(password)){//数据库中pwd和jsp中传回password比较
+            rs = ps.executeQuery();//执行查询语句
+            String pwd =null;
+            String name =null;
+            if(rs.next()){
+                name = rs.getString("name");
+                 pwd =rs.getString("password");//找到数据库中mid对对应的密码
+            }
+            System.out.println(name+"aaa+++");
+            System.out.println(pwd+"dbc");
+            if(pass.equals(pwd)){//数据库中pwd和jsp中传回password比较
                 return true;
             }else{
                 return false;

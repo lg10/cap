@@ -9,8 +9,8 @@ import java.lang.reflect.Method;
 
 @SuppressWarnings("serial")
 public class DispatcherServlet extends HttpServlet {
-    protected HttpServletRequest request;
-    protected HttpServletResponse response;
+    public HttpServletRequest request;
+    public HttpServletResponse response;
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

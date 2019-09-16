@@ -30,7 +30,7 @@ layui.use(['form','jquery','layer'],function(){
             type:'POST',
             data:$(".usertext").serialize(), // 取得表单的所有数据内
             success:function(data){
-                alert(data);
+                // alert(data);
                 if(data =="success"){
                     layer.msg('用户登录成功',{time:2000,icon:1,end:function(){
                         location.href=getContextPath()+"/pages/back/index.jsp";
