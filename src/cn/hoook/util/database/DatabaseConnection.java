@@ -30,7 +30,7 @@ public class DatabaseConnection {
         return conn;
     }
     //判断数据库连接是否存在
-    public static void closeDB(Connection conn, PreparedStatement ps, ResultSet rs) {
+    public static void closeDB() {
         if (conn != null){
             try {
                 conn.close();

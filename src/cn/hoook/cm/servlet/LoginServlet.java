@@ -3,12 +3,11 @@ package cn.hoook.cm.servlet;
 
 import cn.hoook.cm.factory.ServiceFactory;
 import cn.hoook.util.ValidateUtil.ValidateUtils;
+import cn.hoook.util.database.DatabaseConnection;
 import cn.hoook.util.md5.MD5Code;
 import cn.hoook.util.servlet.DispatcherServlet;
-import cn.hoook.cm.dao.impl.LoginDao;
 import cn.hoook.util.vo.Member;
 
-import java.io.IOException;
 import java.util.Map;
 
 
@@ -41,7 +40,6 @@ public class LoginServlet extends DispatcherServlet {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-
         }
 
 

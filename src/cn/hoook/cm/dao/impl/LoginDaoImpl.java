@@ -63,11 +63,12 @@ public class LoginDaoImpl extends AbstractDAOImpl implements ILoginDAO {
 
     @Override
     public boolean doCreate(Member vo) throws SQLException {
-        String sql = "INSERT INTO member(mid,name,password,phone,flag,status,title)VALUES(?,?,?,?,?,?,?)";
+        String sql = "INSERT INTO member(mid,name,password,email)VALUES(?,?,?,?,?,?,?)";
         super.pstmt = super.conn.prepareStatement(sql);
         super.pstmt.setString(1, vo.getMid());
         super.pstmt.setString(2, vo.getName());
         super.pstmt.setString(3, vo.getPassword());
+        super.pstmt.setString(4, vo.getEmail());
         return super.pstmt.executeUpdate() > 0;
     }
 

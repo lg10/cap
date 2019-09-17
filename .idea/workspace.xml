@@ -7,18 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84041c14-c5e9-4db7-8f6f-1364a8929d94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/hoook/cm/dao/impl/LoginDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/hoook/cm/factory/DAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/hoook/cm/factory/ServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/hoook/cm/service/ILoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/hoook/cm/service/impl/ILoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/hoook/util/dao/AbstractDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hoook/cm/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/cm/dao/impl/LoginDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/hoook/cm/dao/impl/LoginDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/cm/dao/impl/LoginDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/hoook/cm/service/impl/ILoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/cm/service/impl/ILoginServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/hoook/cm/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/cm/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/hoook/util/database/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/util/database/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/hoook/util/vo/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/util/vo/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/cm/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/cm/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/util/vo/LoginDao.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +223,7 @@
       <updated>1568350570480</updated>
       <workItem from="1568350574044" duration="16229000" />
       <workItem from="1568627505966" duration="3247000" />
-      <workItem from="1568636108562" duration="10832000" />
+      <workItem from="1568636108562" duration="15186000" />
     </task>
     <servers />
   </component>

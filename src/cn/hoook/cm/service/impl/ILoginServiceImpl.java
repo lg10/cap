@@ -1,16 +1,13 @@
 package cn.hoook.cm.service.impl;
 
-import cn.hoook.cm.dao.ILoginDAO;
-import cn.hoook.cm.dao.impl.LoginDaoImpl;
 import cn.hoook.cm.factory.DAOFactory;
 import cn.hoook.cm.service.ILoginService;
-import cn.hoook.util.dao.AbstractDAOImpl;
 import cn.hoook.util.database.DatabaseConnection;
 import cn.hoook.util.vo.Member;
 
-import java.sql.Connection;
 import java.util.HashMap;
 import java.util.Map;
+
 
 public class ILoginServiceImpl implements ILoginService {
     @Override
@@ -29,7 +26,13 @@ public class ILoginServiceImpl implements ILoginService {
 
     @Override
     public boolean insert(Member vo) throws Exception {
-        return false;
+        try {
+            return DAOFactory.getIMemberDAOInstance(DatabaseConnection.getConn()).doCreate(vo);
+        } catch (Exception e) {
+            throw e;
+        } finally {
+            DatabaseConnection.closeDB();
+        }
     }
 
     @Override

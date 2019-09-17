@@ -31,4 +31,14 @@ public class Member implements Serializable {
     private String name;
     private String password;
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    private String email;
+
 }
