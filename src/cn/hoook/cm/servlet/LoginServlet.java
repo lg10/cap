@@ -4,7 +4,7 @@ package cn.hoook.cm.servlet;
 import cn.hoook.util.ValidateUtil.ValidateUtils;
 import cn.hoook.util.md5.MD5Code;
 import cn.hoook.util.servlet.DispatcherServlet;
-import cn.hoook.util.vo.LoginDao;
+import cn.hoook.cm.dao.LoginDao;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package cn.hoook.util.vo;
+package cn.hoook.cm.dao;
 
 import cn.hoook.util.database.DatabaseConnection;
 
