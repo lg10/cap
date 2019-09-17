@@ -1,4 +1,4 @@
-package cn.hoook.cm.dao;
+package cn.hoook.cm.dao.impl;
 
 import cn.hoook.util.database.DatabaseConnection;
 
@@ -22,7 +22,7 @@ public class LoginDao {
             String name =null;
             if(rs.next()){
                 name = rs.getString("name");
-                 pwd =rs.getString("password");//找到数据库中mid对对应的密码
+                pwd =rs.getString("password");//找到数据库中mid对对应的密码
             }
             System.out.println(name+"aaa+++");
             System.out.println(pwd+"dbc");

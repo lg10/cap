@@ -30,4 +30,5 @@ public class Member implements Serializable {
     private String mid;
     private String name;
     private String password;
+
 }
