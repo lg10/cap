@@ -2,11 +2,10 @@ package cn.hoook.cm.dao.impl;
 
 import cn.hoook.cm.dao.ILoginDAO;
 import cn.hoook.util.dao.AbstractDAOImpl;
+import cn.hoook.util.database.DatabaseConnection;
 import cn.hoook.util.vo.Member;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -15,19 +14,25 @@ public class LoginDaoImpl extends AbstractDAOImpl implements ILoginDAO {
     public LoginDaoImpl(Connection conn) {
         super(conn);
     }
+    public LoginDaoImpl(){}
+    private Connection conn=null;
+    private PreparedStatement ps=null;
+    private ResultSet rs=null;
 
     @Override
     public Member findLogin(Member vo) throws SQLException {
         Member member = new Member();
         String sql = "SELECT mid,name,phone,flag,title,status FROM member  WHERE mid=? AND password=?  ";
-        super.pstmt = super.conn.prepareStatement(sql);
-        super.pstmt.setString(1, vo.getMid());
-        super.pstmt.setString(2, vo.getPassword());
-        ResultSet rs = super.pstmt.executeQuery();
+        conn = DatabaseConnection.getConn();
+        ps = conn.prepareStatement(sql);
+        ps.setString(1, vo.getMid());
+        ps.setString(2, vo.getPassword());
+        ResultSet rs = ps.executeQuery();
         if(rs.next()) {
             member.setMid(rs.getString(1));
             member.setName(rs.getString(2));
         }
+        DatabaseConnection.closeDB(conn,rs,ps);
         return member;
     }
 
@@ -63,13 +68,17 @@ public class LoginDaoImpl extends AbstractDAOImpl implements ILoginDAO {
 
     @Override
     public boolean doCreate(Member vo) throws SQLException {
-        String sql = "INSERT INTO member(mid,name,password,email)VALUES(?,?,?,?,?,?,?)";
-        super.pstmt = super.conn.prepareStatement(sql);
-        super.pstmt.setString(1, vo.getMid());
-        super.pstmt.setString(2, vo.getName());
-        super.pstmt.setString(3, vo.getPassword());
-        super.pstmt.setString(4, vo.getEmail());
-        return super.pstmt.executeUpdate() > 0;
+        String sql = "INSERT INTO member(mid,name,password,phone,email)VALUES(?,?,?,?,?)";
+        conn = DatabaseConnection.getConn();
+        ps = conn.prepareStatement(sql);
+        ps.setString(1, vo.getMid());
+        ps.setString(2, vo.getName());
+        ps.setString(3, vo.getPassword());
+        ps.setString(4, vo.getPhone());
+        ps.setString(5, vo.getEmail());
+        boolean boo = ps.executeUpdate() > 0;
+        DatabaseConnection.closeDB(conn,rs,ps);
+        return boo;
     }
 
     @Override

@@ -31,6 +31,16 @@ public class Member implements Serializable {
     private String name;
     private String password;
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    private String phone;
+
     public String getEmail() {
         return email;
     }

@@ -12,4 +12,5 @@ public class AbstractDAOImpl {
     public AbstractDAOImpl(Connection conn){
         this.conn=conn;
     }
+    public AbstractDAOImpl(){}
 }

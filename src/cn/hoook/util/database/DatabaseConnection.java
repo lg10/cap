@@ -30,13 +30,19 @@ public class DatabaseConnection {
         return conn;
     }
     //判断数据库连接是否存在
-    public static void closeDB() {
-        if (conn != null){
-            try {
-                conn.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
+    public static void closeDB(Connection conn,ResultSet rs,PreparedStatement ps) {
+        try {
+            if (rs != null) {
+                rs.close();
             }
+            if (ps != null) {
+                ps.close();
+            }
+            if (conn != null) {
+                conn.close();
+            }
+        }catch (Exception e){
+            e.printStackTrace();
         }
     }
 
