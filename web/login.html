@@ -1,29 +1,15 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: zahui
-  Date: 2019-07-28
-  Time: 下午 10:28
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%
-    String path = request.getContextPath();
-    String basePath = request.getScheme() + "://"
-            + request.getServerName() + ":" + request.getServerPort()
-            + path + "/";
-%>
+
 <html>
 <head>
     <meta charset="UTF-8">
-    <base href="<%=basePath%>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="<%=basePath%>layui/css/layui.css">
-    <link rel="stylesheet" type="text/css" href="<%=basePath%>layui/css/iconfont.css">
-    <link rel="stylesheet" type="text/css" href="<%=basePath%>layui/css/css.css">
+    <link rel="stylesheet" href="./layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="./layui/css/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="./layui/css/css.css">
     <link rel="icon" href="/favicon.ico">
 
-    <script type="text/javascript" src="<%=basePath %>layui/layui.js"></script>
+    <script type="text/javascript" src="./layui/layui.js"></script>
     <title>客户信息管理系统</title>
 </head>
 
@@ -74,6 +60,9 @@
             </div>
         </div>
     </form>
+    <div >
+        <p class="register"><a href="register.html" > 注册 </a></p>
+    </div>
     <div class="tab">
         <a href="javascript:changeLogin();">
             <i id="tabuser" class="iconfont icon-diannao icondiannao"></i></a>
@@ -93,8 +82,8 @@
     <p class="banquan">2019 <a href="http://www.cap.edu.cn" target="_blank">成都航院信息工程学院</a>-学生会外联部©版权所有</p>
 </div>
 </body>
-<script src="<%=basePath%>layui/layui.js"></script>
-<script src="<%=basePath%>js/login.js"></script>
-<script src="<%=basePath%>js/index.js" data-main="login"></script>
-<script src="<%=basePath%>js/changeImg.js"></script>
+<script src="layui/layui.js"></script>
+<script src="js/login.js"></script>
+<script src="js/index.js" data-main="login"></script>
+<script src="js/changeImg.js"></script>
 </html>

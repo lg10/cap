@@ -7,35 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84041c14-c5e9-4db7-8f6f-1364a8929d94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/js/regist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/classes/cn/hoook/cm/dao/impl/LoginDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/classes/cn/hoook/cm/dao/impl/LoginDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/classes/cn/hoook/cm/service/impl/ILoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/classes/cn/hoook/cm/service/impl/ILoginServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/classes/cn/hoook/cm/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/classes/cn/hoook/cm/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/classes/cn/hoook/util/dao/AbstractDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/classes/cn/hoook/util/dao/AbstractDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/classes/cn/hoook/util/database/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/classes/cn/hoook/util/database/DatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/classes/cn/hoook/util/vo/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/classes/cn/hoook/util/vo/Member.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hoook/cm/dao/impl/LoginDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/cm/dao/impl/LoginDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/layui/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/layui/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/register/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/register/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/register/css/iconfont.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/hoook/cm/service/impl/ILoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/cm/service/impl/ILoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hoook/cm/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/cm/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hoook/util/dao/AbstractDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/util/dao/AbstractDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hoook/util/database/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/util/database/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hoook/util/vo/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/util/vo/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/META-INF/cap.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/cm/dao/impl/LoginDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/cm/dao/impl/LoginDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/cm/service/impl/ILoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/cm/service/impl/ILoginServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/cm/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/cm/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/util/dao/AbstractDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/util/dao/AbstractDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/util/database/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/util/database/DatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/util/vo/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cn/hoook/util/vo/Member.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register/font/NEOTERICc.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/layui/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/layui/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/register/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register/css/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/register/css/iconfont.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/index.jsp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/register/css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,11 +72,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zahui\Desktop\cap\web\register\css" />
       <recent name="C:\Users\zahui\Desktop\cap\src\cn\hoook\util" />
       <recent name="C:\Users\zahui\Desktop\cap\src" />
       <recent name="C:\Users\zahui\Desktop\cap\web" />
       <recent name="C:\Users\zahui\Desktop\cap\web\css" />
-      <recent name="C:\Users\zahui\Desktop\cap\web\js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.hoook.cm.factory" />
@@ -260,7 +249,7 @@
       <workItem from="1568776165541" duration="133000" />
       <workItem from="1568776965805" duration="29000" />
       <workItem from="1568777348186" duration="153000" />
-      <workItem from="1568777530342" duration="10643000" />
+      <workItem from="1568777530342" duration="18862000" />
     </task>
     <servers />
   </component>

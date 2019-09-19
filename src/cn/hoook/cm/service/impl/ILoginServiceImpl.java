@@ -37,7 +37,7 @@ public class ILoginServiceImpl implements ILoginService {
     @Override
     public boolean insert(Member vo) throws Exception {
             ILoginDAO ILogin = new LoginDaoImpl();
-            return ILogin.doCreate(vo);
+        return ILogin.doCreate(vo);
     }
 
     @Override

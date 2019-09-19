@@ -329,6 +329,19 @@ a:hover {
     transition-duration: 0.4s;
 }
 
+.register{
+    font-size: 12px;
+    position: absolute;
+    top:320px;
+    left: 46%;
+    color: #0C0C0C;
+    z-index: 100;
+}
+
+.register a:visited{
+color: rgb(116, 116, 116);
+}
+
 .yzbtu:hover {
     color: #fff;
     background-color: #0073ffa9;
