@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="cap:war exploded" />
+      <artifact name="cap:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84041c14-c5e9-4db7-8f6f-1364a8929d94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cap_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/cap_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/cap_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/layui/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/layui/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/register/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/register/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cap_war_exploded/register/css/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hoook/cm/service/impl/ILoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/hoook/cm/service/impl/ILoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/layui/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/layui/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/register/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register/css/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/register/css/iconfont.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +50,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -250,6 +235,7 @@
       <workItem from="1568776965805" duration="29000" />
       <workItem from="1568777348186" duration="153000" />
       <workItem from="1568777530342" duration="18862000" />
+      <workItem from="1568883199506" duration="4598000" />
     </task>
     <servers />
   </component>
